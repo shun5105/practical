@@ -1,0 +1,84 @@
+body{
+    color: #082B48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    /* lineheight行間の高さを調節する */
+}
+.container{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* header */
+header{
+    padding: 20px 0px;
+}
+.header-left{
+    float: left;
+}
+.header-title{
+    line-height: 36px;
+    font-size: 24px;
+    font-weight:600;
+}
+.header-right{
+    float: right;
+    width: 400px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav-item{
+width: 30%;
+}
+
+.header-nav-item p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 36px;
+        }
+section{
+    padding: 20px 0;
+}
+.top{
+    padding: 80px 0px;
+    background-image: url(../img/main-vsual-nontitle.png);
+    background-size: cover;
+}
+.top-title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.top-subtitle{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-left{
+    float: left;
+    width: 50%;
+}
+.about-right{
+    float: right;
+    width: 50%;
+}
